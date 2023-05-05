@@ -1,0 +1,201 @@
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    /* overflow-x: hidden; */
+}
+*{
+    margin: 0; padding: 0;
+    border: none; outline: none;
+}
+
+header{
+    height: max-content;
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    backdrop-filter: blur(8px);
+}
+
+header .logo img{
+    width: 10rem;
+}
+header nav{
+    /* background-color: aqua; */
+    font-size: 2rem;
+    height: max-content;
+}
+header nav ul{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+header nav ul li a{
+    display: inline-block;
+    padding: 1.5rem;
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bold;
+    background-color: gray;
+    border-right: 3px solid black;
+}
+header nav ul li a:hover{
+    background-color: orange;
+    color: black;
+}
+header .searchBox{
+    background-color: greenyellow;
+    font-size: 2rem;
+    height: max-content;
+}
+header .searchBox input{
+    width: 15rem;
+    font-size: 1.5rem;
+    outline: 1px solid black;
+    padding: .5rem;
+    height: 2.5rem;
+}
+header .searchBox button{
+    padding: .5rem;
+    background-color: gray;
+    color: whitesmoke;
+    font-weight: bold;
+    height: 2.5rem;
+    cursor: pointer;
+}
+header .searchBox button:hover{
+    background-color: orange;
+    color: black;
+
+
+}
+body{
+    background-image: url("/img/bg.png");
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
+main{
+    font-size: 27px;
+}
+.welcome{
+    width: 50%;
+    background-color: rgb(246, 238, 238);
+    padding: 20px 20px 20px 20px;
+    /* border: 2px solid green; */
+    margin: 30px auto 30px auto;
+    border-radius: 15px;
+}
+
+.welcome button{
+    color: white;
+    background-color: rgb(6, 130, 60);
+    display: block;
+    margin: 10px auto 0 auto;
+    font-size: 25px;
+    padding: 10px ;
+    border-radius: 25px;
+    
+}
+.welcome button:hover{
+    cursor: pointer;
+    box-shadow: 0 0 15px 8px greenyellow;
+    outline: 4px solid greenyellow;
+}
+
+.welcome h1{
+    margin: 0 0 20px 10px;
+}
+main .menu{
+    background-color: rgb(222, 222, 230);
+    /* border: 2px solid yellow; */
+    margin: 140px 0 0 0;
+}
+.services{
+    background-color: rgb(251, 245, 246);
+    width: calc(100%-30px);
+    height: auto;
+    margin: 30px 30px 30px 30px;
+    /* border: 2px solid black; */
+    display: flex;
+}    
+.services .box3{
+    /* border: 2px solid rgb(12, 246, 109); */
+    border-radius: 17px;
+    
+}    
+.services .box img{
+    width: 90%;
+    height: fit-content;
+    border-radius: 34px;
+    padding: 20px 10px 10px 10px;
+
+}    
+.services .box2 img{
+    width: 90%;
+    height: max-content;
+    border-radius: 34px;
+    padding: 20px 10px 10px 10px;
+    /* border: 2px solid red; */
+}    
+.services .box3 img{
+    width: 90%;
+    height: fit-content;
+    border-radius: 34px;
+    padding: 20px 10px 10px 10px;
+}    
+footer{
+    background-color: #474E68;
+    
+    /* font-size: 24px; */
+    color: #fff;
+
+}
+.foot{
+    display: flex;
+    margin: 20px 26px 20px 26px;
+}
+.dis{
+
+    font-size: 23px;
+    width: 25%;
+    padding: 20px 20px 20px 20px;
+}
+.pro{
+
+    width: 25%;
+    font-size: 23px;
+    padding: 20px 20px 20px 20px;
+    /* text-align: center; */
+
+}
+.add{
+
+    width: 25%;
+    font-size: 23px;
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+
+
+}
+.link{
+
+    width: 25%;
+    font-size: 23px;
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+
+
+}
+.link a{
+    color: aliceblue;
+}
+.copy{
+    font-size: 22px;
+    color: aliceblue;
+    background-color: #474E68;
+    text-align: center;
+    margin: 9px 0 0 0;
+    padding: 8px 0 15px 0;
+}
